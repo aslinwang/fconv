@@ -1,0 +1,84 @@
+<include>inc/header.html</include>
+<script type="text/javascript">
+  document.documentElement.style.display = 'none';
+  (function(){
+    function refreshRem(){
+      var _deviceWidth = document.documentElement.clientWidth;
+      document.documentElement.style.fontSize = _deviceWidth / 6.4 + 'px';
+      document.documentElement.style.display = 'block';
+    }
+    refreshRem();
+    window.addEventListener('resize', function() {
+      refreshRem();
+    }, false);
+  }());
+</script>
+<section class="p-index">
+  <div class="info">
+    <div class="loc-wrapper">
+      <div class="loc">
+        <img src="http://mat1.gtimg.com/city/images/touch/cur.png" class="cur">
+        <span class="city">北京</span>
+        <img src="http://mat1.gtimg.com/city/images/touch/list.png" class="down">
+      </div>
+    </div>
+  </div>
+  <div class="entry">
+
+  </div>
+  <div class="news">
+    <ul>
+      <li>
+        <a href="#">
+          <div class="thumb">
+            <img src="http://inews.gtimg.com/newsapp_ls/0/220813522_150120/0">
+          </div>
+          <h2>爱情故事最佳发生地：西雅图</h2>
+          <p>
+            这个总出现在爱情片中的城市，与生俱来便有一种浪漫情节。
+            <span class="tip">
+              <i class="count">2评</i>
+              <i class="flag">独家</i>
+            </span>
+          </p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="thumb">
+            <img src="http://inews.gtimg.com/newsapp_ls/0/220813522_150120/0">
+          </div>
+          <h2>爱情故事最佳发生地：西雅图</h2>
+          <p>
+            这个总出现在爱情片中的城市，与生俱来便有一种浪漫情节。
+            <span class="tip">
+              <i class="count">9评</i>
+            </span>
+          </p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="thumb">
+            <img src="http://inews.gtimg.com/newsapp_ls/0/220813522_150120/0">
+          </div>
+          <h2>爱情故事最佳发生地：西雅图</h2>
+          <p>
+            这个总出现在爱情片中的城市，与生俱来便有一种浪漫情节。
+            <span class="tip">
+              <i class="count">13评</i>
+            </span>
+          </p>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="more">
+    <img class="icon" src="http://mat1.gtimg.com/city/images/touch/load.png">
+    <span class="tip">加载更多</span>
+  </div>
+</section>
+<script type="text/javascript">
+  var pageType = 1001;
+</script>
+<include>inc/footer.html</include>

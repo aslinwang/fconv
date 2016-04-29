@@ -1,0 +1,19 @@
+{
+  "name": "fconv",
+  "version": "0.0.1",
+  "description": "convert file from utf8 to gbk",
+  "main": "index.js",
+  "bin": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reactjs/redux/issues"
+  },
+  "dependencies": {
+    "iconv-lite" : "",
+    "cmd-interface": "0.0.5"
+  }
+}
